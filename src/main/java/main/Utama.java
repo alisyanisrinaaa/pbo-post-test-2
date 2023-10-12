@@ -22,7 +22,7 @@ public class Utama {
             System.out.println("3. Update Item");
             System.out.println("4. Delete Item");
             System.out.println("5. Exit");
-            System.out.print("Choice : ");
+            System.out.print("Pilih : ");
             choice = scanner.nextInt();
 
             // Switch statement untuk memproses pilihan
@@ -37,7 +37,7 @@ public class Utama {
                     System.out.println("===== Tambah Item =====");
                     System.out.println("1. Tambah Baju");
                     System.out.println("2. Tambah Celana");
-                    System.out.print("Choice: ");
+                    System.out.print("Pilih : ");
                     int itemChoice = scanner.nextInt();
                     scanner.nextLine();
                     if (itemChoice == 1) { 
@@ -75,7 +75,7 @@ public class Utama {
                     System.out.println("===== Update Item =====");
                     System.out.println("1. Update Baju");
                     System.out.println("2. Update Celana");
-                    System.out.print("Choice: ");
+                    System.out.print("Pilih : ");
                     itemChoice = scanner.nextInt();
                     scanner.nextLine();
                     if (itemChoice == 1) {
@@ -115,7 +115,7 @@ public class Utama {
                             System.out.print("Ukuran Celana : ");
                             size = scanner.next();
                             TokoPakaian.updateItem(id, new Celana(id, name, price, size));
-                            System.out.println("Id " + id + " berhasil di update");
+                            System.out.println("ID " + id + " berhasil di update");
                             System.out.println("");
                         } else {
                             System.out.println("Invalid choice");
@@ -132,7 +132,7 @@ public class Utama {
                     System.out.print("Masukkan ID Baju atau Celana : ");
                     id = scanner.next().toUpperCase();
                     if (!TokoPakaian.getItem(id)) {
-                        System.out.println("Item dengan ID" + id + " tidak ditemukan");
+                        System.out.println("Item dengan ID " + id + " tidak ditemukan");
                         break;
                     } else if (TokoPakaian.getItem(id)) {
                         TokoPakaian.deleteItem(id);
