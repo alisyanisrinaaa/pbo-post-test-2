@@ -43,8 +43,7 @@ Gambar disamping adalah hasil output apabila user ingin menambahkan item baju. D
 Gambar disamping adalah hasil output apabila user ingin menambahkan item celana. Disini user diminta untuk menginput ID celana, nama celana, harga celana, dan juga ukuran celana.
 
 `3. Menu Katalog (READ)` <br>
-Pada menu katalog, user dapat melihat item-item apa saja yang tersimpan.
-
+Pada menu katalog, user dapat melihat item-item apa saja yang tersimpan. <br>
 <img width="180" alt="image" src="https://github.com/alisyanisrinaaa/pbo-post-test-2/assets/122090377/011946b2-571c-429d-b094-d58438a507d1">
 Gambar disamping adalah hasil output katalog jika belum ada item yang diinputkan.
 <br>
